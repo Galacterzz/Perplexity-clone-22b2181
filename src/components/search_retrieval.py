@@ -71,6 +71,12 @@ def fetch_and_parse_documents(search_results: List[Dict[str, str]]) -> List[Docu
     """
     logger.info(f"Parsing content from {len(search_results)} URLs.")
     documents = []
+
+    # FIX: Add a User-Agent header to mimic a real browser
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    
     for result in search_results:
         url = result.get("url")
         title = result.get("title")
