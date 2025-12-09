@@ -7,7 +7,7 @@ langgraph==0.6.8
 langsmith==0.4.32
 
 # Web search and scraping
-brave-search==0.1.8 # Or use langchain_community.tools.brave_search if available
+# brave-search==0.1.8 # Or use langchain_community.tools.brave_search if available
 requests==2.32.5
 beautifulsoup4==4.14.2
 
