@@ -4,7 +4,7 @@ A fully functional, modern search-and-answer assistant built with the latest AI 
 
 ## 🎥 Video Walkthrough
 
-Note: This is a placeholder. To add your own video, record a demo, upload it to a platform like YouTube or Loom, and replace the link and placeholder image above.
+https://github.com/user-attachments/assets/426f142d-7ee7-49cb-a327-c59c6c7f2fa6
 
 ## 🚀 Features
 
