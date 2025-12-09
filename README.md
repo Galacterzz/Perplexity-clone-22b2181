@@ -2,6 +2,8 @@
 
 A fully functional, modern search-and-answer assistant built with the latest AI technologies. This project searches the web, scrapes content, and generates intelligent, cited responses to user queries.
 
+Working App on Streamlit | [Perplexity clone](https://perplexity-clone-anirudha.streamlit.app/)
+
 ## 🎥 Video Walkthrough
 
 https://github.com/user-attachments/assets/426f142d-7ee7-49cb-a327-c59c6c7f2fa6
