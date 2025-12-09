@@ -19,6 +19,12 @@ def get_env_variable(var_name: str) -> str:
     # 2. Check OS Environment Variables (for Local Dev)
     return os.getenv(var_name)
 
+# --- DEBUG START ---
+# This will print available keys to your logs (Manage App -> Logs)
+# It will NOT print the values, so your keys remain safe.
+print("DEBUG: Available Secrets Keys:", list(st.secrets.keys()))
+# --- DEBUG END ---
+
 # --- API Keys and Configuration ---
 MISTRAL_API_KEY = get_env_variable("MISTRAL_API_KEY")
 BRAVE_SEARCH_API_KEY = get_env_variable("BRAVE_SEARCH_API_KEY")
