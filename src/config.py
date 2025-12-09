@@ -46,7 +46,8 @@ if not BRAVE_SEARCH_API_KEY:
     raise ValueError("BRAVE_SEARCH_API_KEY not found. Please set it in .env or Streamlit Secrets.")
     
 # --- Model Names ---
-MISTRAL_LLM_MODEL = "mistral-small-2506" # Or another suitable Mistral model
+# MISTRAL_LLM_MODEL = "mistral-small-2506" # Or another suitable Mistral model
+MISTRAL_LLM_MODEL = "mistral-medium-2508"
 MISTRAL_EMBED_MODEL = "mistral-embed"
 
 # --- Search Configuration ---
