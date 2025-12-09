@@ -29,6 +29,7 @@ def main_ui():
     st.title("🔍 Perplexity Clone")
     st.caption("Powered by LangGraph, Mistral AI, Brave Search, and FAISS")
     st.caption("Sometimes the search may not work as websites are starting to use anti scrapping policies")
+    st.caption("May take time as storing and retriveing the embedding")
 
     # Display conversation history
     for message in st.session_state.messages:
